@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: telegram-bot-eric
+    runtime: python
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: TOKEN
+        value: TU_TOKEN_DEL_BOT
