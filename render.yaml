@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: telegram-bot-eric
+    name: ErickLRS_bot
     runtime: python
     buildCommand: ""
     startCommand: python bot.py
