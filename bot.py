@@ -20,9 +20,9 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await query.answer()
 
     data = {
-        'postgres': "Aquí tienes el curso de PostgreSQL: [Enlace al curso](https://ejemplo.com/postgres)",
-        'virus': "Curso de Desarrollo de Virus Informático: [Enlace al curso](https://ejemplo.com/virus)",
-        'tumblr': "Visita el Tumblr de Eric: [https://eric.tumblr.com](https://eric.tumblr.com)",
+        'postgres': "Aquí tienes el curso de PostgreSQL: [Enlace al curso](https://www.udemy.com/course/curso-completo-de-postgres-y-pg-admin-iii/)",
+        'virus': "Curso de Desarrollo de Virus Informático: [Enlace al curso](https://www.udemy.com/course/curso-de-desarrollo-de-virus-en-diferentes-lenguajes-de-prog/)",
+        'tumblr': "Visita el Tumblr de Eric: [https://eric.tumblr.com](https://www.tumblr.com/erlerusa?source=share)",
         'codificacion': "Descarga el vídeo de codificación: [Descargar](https://ejemplo.com/codificacion.mp4)",
         'decodificacion': "Video de decodificación del bot datapan: [Ver video](https://ejemplo.com/decodificacion)",
     }
