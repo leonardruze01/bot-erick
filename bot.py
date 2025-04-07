@@ -11,6 +11,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("Ir a Tumblr", callback_data='tumblr')],
         [InlineKeyboardButton("Descargar vídeo de codificación", callback_data='codificacion')],
         [InlineKeyboardButton("Decodificación del bot datapan", callback_data='decodificacion')],
+        [InlineKeyboardButton("Ir a Cupónes de Descuento", callback_data='Cupon')],
+    
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text("Cursos de Eric Leonardo Ruiz Sánchez", reply_markup=reply_markup)
@@ -25,6 +27,8 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         'tumblr': "Visita el Tumblr de Eric: [https://eric.tumblr.com](https://www.tumblr.com/erlerusa?source=share)",
         'codificacion': "Descarga el vídeo de codificación: [Descargar](https://photos.app.goo.gl/MFh5bR6LCdmfkqNi9)",
         'decodificacion': "Video de decodificación del bot datapan: [Ver video](https://photos.app.goo.gl/MFh5bR6LCdmfkqNi9)",
+        'Cupon': "Visita los cupones de descuento Udemy: [https://t.me/UCupones](https://t.me/UCupones)",
+    
     }
 
     response = data.get(query.data, "Opción no válida.")
